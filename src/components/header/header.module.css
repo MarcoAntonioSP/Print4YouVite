@@ -1,0 +1,45 @@
+.headercontainer {
+  background-color: #ffffff;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.486);
+  box-shadow: 1px 1px 1px 1px #3a000057;
+}
+
+.contactinformation {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.headercontent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo {
+  width: 100px;
+  border-radius: 50px;
+}
+.searchinput {
+  text-align: center;
+  box-shadow: 1px 1px 1px #27191957;
+  width: 450px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #2b22226c;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation a {
+  color: rgb(0, 0, 0);
+  margin-right: 20px;
+  text-decoration: none;
+}
